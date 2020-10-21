@@ -1,0 +1,68 @@
+.jimu-widget-navigationtools{
+  background-color: #ccc;
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 25px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  text-align: center;
+  font-family: verdana,helvetica;
+}
+
+.jimu-widget-navigationtools .nav{
+  width: 30px;
+  height: 30px;
+}
+
+.jimu-widget-navigationtools .nav:hover{
+  background-color: #848385;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.jimu-widget-navigationtools .navSelect{
+  background-color: #848385;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.jimu-widget-navigationtools .nav.jimu-state-disabled{
+  color: #ddd;
+}
+
+
+.jimu-widget-navigationtools.vertical .nav-zoom-in{
+   border-bottom: 1px solid #57585A;
+  background-image: url("images/zoom_in.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.jimu-widget-navigationtools.vertical .nav-zoom-out{
+  border-bottom: 1px solid #57585A;
+  background-image: url("images/zoom_out.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.jimu-widget-navigationtools.vertical .nav-pan{
+  border-bottom: 1px solid #57585A;
+  background-image: url("images/move.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.jimu-widget-navigationtools.vertical .nav-prev{
+  border-bottom: 1px solid #57585A;
+  background-image: url("images/arrow_left.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.jimu-widget-navigationtools.vertical .nav-next{
+  background-image: url("images/arrow_right.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
